@@ -1,0 +1,8 @@
+PROJECT (example01)
+
+ADD_SRC (./main.cpp)
+ADD_ARG (lGLU)
+ADD_ARG (lGL)
+ADD_ARG (lglfw3)
+
+BUILD (example.out)
